@@ -1,0 +1,71 @@
+<!-- ho scritto come prima cosa "html" e premuto "enter"-->
+<!DOCTYPE html>
+<!-- dice al browser che tipo di documento è in questo caso HTML versione 5-->
+<html lang="en" dir="ltr">
+<!-- inizio del docuemnto HTML tutto quello scritto tra inizio e fine è HTML -->
+
+<head>
+  <!-- da al browser delle specifiche di cosa sta aprendo -->
+  <meta charset="utf-8">
+  <!-- metadata fornisce dei dati extra al sito in questo caso dice che tutto il testo è unicode UTF 8
+    encoded sito per unicode https://unicode-table.com/it/-->
+  <!-- ci sono altri meta come descrizione ecc.. guarda siti -->
+  <title>Nicola's Personal Site ☻</title><!-- titolo del sito -->
+</head>
+
+<body>
+  <h1>Nicola Rigoni</h1>
+  <img src="images/me_profile.jpg" alt="nicola profile picture">
+  <hr size="8" noshade>
+  <p><i>questo è un paragrafo per raggrupare del testo.Con aspetto Italic.</i></p>
+  <p>questo è un paragrafo con link esterno ancorato cliccando <a href="https://www.google.com/">qui</a>.</p>
+  <p>questo è un paragrafo per raggrupare del testo.Con aspetto <em>Italic</em> solo per una frazione di testo.</p>
+  <p><b>questo è un paragrafo per raggrupare del testo.Con aspetto Bold.</b></p>
+  <p>questo è un paragrafo per raggrupare del testo.Con aspetto <strong>Bold</strong> solo per una frazione di testo.</p>
+  <hr size="2" noshade>
+  <h3>Sottotitolo</h3>
+  <ul>
+    <li>Primo elemento</li>
+    <li>Secondo elemento</li>
+  </ul>
+  <h3>Sottotitolo 2</h3>
+  <ol>
+    <li>Primo elemento</li>
+    <li>Secondo elemnto</li>
+    <li>Terzo elemento</li>
+  </ol>
+  <a href="page1.html">Page 1</a>
+  <br>
+  <a download href="http://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf">Dowload Cheatsheet</a> <!-- download da link esterno -->
+  <hr size="2" noshade>
+  <h3>Sottotitolo 3</h3>
+  <table border="1">
+    <!-- inizio tabella è scosigliato usare attributi come border perchè sono di CSS-->
+    <thead>
+      <!-- inizio header tabella -->
+      <tr>
+        <th>Colonna 1</th> <!-- cella header tabella cioè i titoli delle colonne della tabella-->
+        <th>Colonna 2</th>
+      </tr>
+    </thead> <!-- fine header tabella -->
+    <tbody>
+      <!-- inizio body tabella cioè il contenuto della tabella -->
+      <tr>
+        <!-- inizio colonna tabella -->
+        <td>colonna 1 riga 1</td> <!-- table data sarebbero le celle-->
+        <td>colonna 2 riga 1</td>
+      </tr><!-- fine colonna tabella -->
+      <tr>
+        <td>colonna2riga2</td>
+        <td>colonna 2 riga 2</td>
+      </tr>
+    </tbody> <!-- fine body tabella -->
+    <tfoot>
+      <!-- inizio foot tabella -->
+
+    </tfoot> <!-- fine foot tabella -->
+
+  </table> <!-- fine tabella -->
+</body>
+
+</html><!-- fine del docuemnto HTML -->
